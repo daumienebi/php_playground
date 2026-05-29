@@ -1,0 +1,27 @@
+
+<html>
+<body>
+<h1>Prueba de formulario simple sin validación</h1>
+<h2 style="color: brown;"> Difference between get and post (_$GET and $_POST):</h2>
+<p> Get isn't the best when it comes to sensitive data, the data (array of variables) sent is passed to the 
+    script using the url query params. The post method on the other hand passes the data to the script using the HTTP post method
+
+    It's also important to note that the $_GET method also has a limitation of about 2000 caracteres. (W3 schools told me xd)
+</p>
+<h3> Form with post methdo </h3>
+<p> Notice that the data isnt passed through the url</p>
+<form action="InValidatedFormPost.php" method="post">
+Name : <input type="text" name="name">
+E-mail : <input type="text" name="email">
+<input type="submit">
+</form>
+
+<h3> Form with get method </h3>
+<p>Notice that the data will be passed through the url</p>
+<form action="InValidatedFormGet.php" method="get">
+Name : <input type="text" name="name">
+E-mail : <input type="text" name="email">
+<input type="submit">
+</form>
+</body>
+</html>
