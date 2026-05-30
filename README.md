@@ -12,4 +12,4 @@ To get started, visit https://www.php.net/
 * To run the server under a whole folder, just navigate to the server directory using the command line and type in:
 `php -S localhost:8000`
 
-    This can be useful when you need more than one file to be served, in a form for example. (html form and php validating it).
+    This can be useful when you need more than one file to be served (more files).
